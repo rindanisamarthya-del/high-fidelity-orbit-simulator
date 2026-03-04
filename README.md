@@ -12,7 +12,7 @@ A Python-based orbital mechanics simulator that propagates satellite trajectorie
 
 Static view showing one complete orbit with Earth rendered in ECI frame:
 
-![3D Orbit Static](docs/fig2_3d_orbit.png)
+![3D Orbit Static](Test_1_Figure_1.png)
 
 ---
 
@@ -20,7 +20,7 @@ Static view showing one complete orbit with Earth rendered in ECI frame:
 
 Frame from the real-time orbit animation showing the satellite position mid-propagation:
 
-![Animation Frame](docs/fig3_anim_frame.png)
+![Animation Frame](Test_1_Figure_2.png)
 
 ---
 
@@ -28,7 +28,7 @@ Frame from the real-time orbit animation showing the satellite position mid-prop
 
 The most physically meaningful output: secular RAAN regression and short-period oscillations in all five elements driven by zonal harmonic perturbations.
 
-![Orbital Elements](docs/fig4_orbital_elements.png)
+![Orbital Elements](Test_1_Figure_3.png)
 
 Key observations from this run:
 - **RAAN (Ω):** Secular regression of −0.133 deg/hr, consistent with J2 analytical prediction (see validation below)
@@ -42,7 +42,7 @@ Key observations from this run:
 
 ECI trajectory converted to ECEF frame accounting for Earth's sidereal rotation (ω⊕ = 7.2921 × 10⁻⁵ rad/s):
 
-![Ground Track](docs/fig5_ground_track.png)
+![Ground Track](Test_1_Figure_4.png)
 
 ---
 
